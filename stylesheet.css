@@ -94,6 +94,9 @@ body
 
 .home-content p{
  font-size: 20px;
+ opacity: 0;
+ animation: slideLeft 1s ease forwards;
+ animation-delay:1s ;
  
 }
 
@@ -151,6 +154,20 @@ body
 
   }
 }
+
+
+@keyframes slideLeft{
+  0%{
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+
+  }
+}
+
 @keyframes slideTop{
   0%{
     transform: translateY(100px);
