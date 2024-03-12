@@ -177,6 +177,7 @@ body
 
   100%{
     transform: translateY(0px);
+    opacity: 1;
   }
 }
 @keyframes slideBottom{
@@ -188,6 +189,7 @@ body
 
   100%{
     transform: translateY(0px);
+     opacity: 1;
   }
 }
 
